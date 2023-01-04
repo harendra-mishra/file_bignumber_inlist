@@ -19,3 +19,13 @@ def big_number(list):
     else:
         return print(f'[{letter}, {big}]')
         # print(letter)
+        
+list1 = [["a", 9], ["b", 6], ["c", 4] , ["d", 3]]
+list2 = [["a", 9], ["b", 6], ["c", 9] , ["d", 3]]
+list3 = [["a", 9], ["b", 6], ["c", 9] , ["d", 3], ["e", 10]]
+list4 = [["a", 24], ["b", 76], ["c", 79] , ["d", 34], ["e", 102]]
+
+big_number(list1)
+big_number(list2)
+big_number(list3)
+big_number(list4)
